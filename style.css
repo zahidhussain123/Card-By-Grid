@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*.container {
+	background-color: yellow;
+	display: grid;
+	grid-template-areas: 
+	'header header header header header'
+	'SideMenu Main Main Main Main'
+	'SideMenu Right Right Right Right'
+	'footer footer footer footer footer';
+	text-align: center;
+	
+}
+
+.c1 {
+	background-color: wheat;
+	border:1px solid black;
+	font-size: 30px;
+	margin: 7px;
+	padding: 20px;
+
+}
+
+#one{
+    grid-area: header; 
+
+}
+
+#two{
+    grid-area: SideMenu
+}
+
+#three{
+    grid-area: Main;
+}
+
+#four{
+    grid-area: Right;
+}
+
+#five{
+   grid-area: footer;
+}
+ header{
+	display: flex;
+	
+    
+}
+ header ul {
+	display: flex;
+	margin: 10px;
+	padding: 10px;
+    
+}*/
+
+
+body{
+	background-color: pink;
+}
+
+.container {
+	background-color: pink;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 10px
+}
+
+.grid{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition: 0.5s ease;
+	margin-top: 70px;
+	margin-left: 8px;
+	margin-right: 8px;
+	border-radius: 9px;
+}
+.grid:hover{
+	opacity: 0.8;
+}
+
+#g1{
+	background-color: yellow;
+}
+
+#g2{
+	background-color: black;
+	color: white;
+}
+
+#g3{
+	background-color: white;
+}
+
+.grid button {
+	background-color: orange;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-style: bold;
+	color: white;
+	padding: 5px;
+	margin: 5px;
+	transition: 0.5s ease;
+}
+
+.grid button:hover{
+	background-color: wheat;
+	color: black;
+}
